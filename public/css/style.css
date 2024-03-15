@@ -738,6 +738,7 @@ header .container.active .toggle span:nth-child(3) {
 .hero-section .hero-img img {
   width: 100%;
   height: 100%;
+  border-radius: 50px;
 }
 
 /*---------------------------------------------------

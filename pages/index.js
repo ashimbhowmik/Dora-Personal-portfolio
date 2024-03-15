@@ -75,10 +75,10 @@ const Index = () => {
       <Hero userData={userData} />
       {/* Home Section End */}
       {/* Support Section Start */}
-      <Support />
+      <Support userData={userData} />
       {/* Support Section End */}
       {/* Service Section Start */}
-      <Service />
+      <Service userData={userData} />
       {/* Service Section End */}
       {/* Experience Section Start */}
       <Experience />

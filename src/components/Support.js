@@ -1,4 +1,4 @@
-const Support = () => {
+const Support = ({ userData }) => {
   return (
     <section className="support-section wow fadeInUp">
       <div className="container">
@@ -14,7 +14,7 @@ const Support = () => {
                 />
               </div>
               <div className="support-text">
-                <h3>8 years job</h3>
+                <h3>{userData?.user.about.exp_year} years job</h3>
                 <p>Experience</p>
               </div>
             </div>
@@ -29,7 +29,7 @@ const Support = () => {
                 />
               </div>
               <div className="support-text">
-                <h3>500+ Projects</h3>
+                <h3>{userData?.user.about.some_total}+ Projects</h3>
                 <p>Completed</p>
               </div>
             </div>
